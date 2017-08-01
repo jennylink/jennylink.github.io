@@ -1,15 +1,38 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Jenny Link</title>
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+	-webkit-justify-content: center;
+    justify-content: center;
+	-webkit-align-items: center;
+    align-items: center;
+	flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    background-color: lightgrey;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+	
+.flex-item {
+    width: 260px;
+    height: 260px;
+    margin: 2px;
+}
+	
+</style>
 </head>
-<p>Jenny Link</p>
-
 <body>
-<div style="float:left"><a href="https://linkjenny.wordpress.com/2017/03/18/print/"><img src="https://linkjenny.files.wordpress.com/2017/03/blue.png?w=600" alt="print" width="220" height="220" /></a></div>
-<div style="float:left"><a href="https://linkjenny.wordpress.com/2017/03/18/projects/"><img src="https://linkjenny.files.wordpress.com/2017/03/magenta.png?w=600" alt="projects" width="220" height="220" /></a></div>
-<div style="float:left"><a href="https://linkjenny.wordpress.com/2017/03/18/photography/"><img src="https://linkjenny.files.wordpress.com/2017/03/yellow.png?w=600" alt="photography" width="220" height="220" /></a></div>
+
+<div class="flex-container">
+  <div class="flex-item"><a href="file:///Users/jen/GitHub/jennylink.github.io/print.html"><img src="img/blue.png" alt="print" width="260px" height="260px"></a></div>
+  <div class="flex-item"><a href="file:///Users/jen/GitHub/jennylink.github.io/projects.html"><img src="img/magenta.png" width="260px" height="260px" alt="projects"/></a></div>
+  <div class="flex-item"><a href="file:///Users/jen/GitHub/jennylink.github.io/photography.html"><img src="img/yellow.png" width="260px" height="260px" alt="photography"/></a></div>
+</div>
 
 </body>
+
 </html>
