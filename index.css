@@ -1,10 +1,59 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Background */
 html { 
   background: url(wallpapers/bg3.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+/* Hover Print */
+#Print {
+    height: 220px;
+    width: 220px;
+}
+
+#Print:hover {
+    content: url(img/print.png);
+    height: 220px;
+    width: 220px;
+}
+
+/* Hover Projects */
+#Projects {
+    height: 220px;
+    width: 220px;
+}
+
+#Projects:hover {
+    content: url(img/projects.png);
+    height: 220px;
+    width: 220px;
+}
+
+/* Hover Photography */
+#Photography {
+    height: 220px;
+    width: 220px;
+}
+
+#Photography:hover {
+    content: url(img/photography.png);
+    height: 220px;
+    width: 220px;
+}
+
+/* Highlight Text*/
+.highlight1{
+   color: white;
+	font-family: "futura";
+	font-style: italic;
+	font-size: 260%;	
+}
+ 
+.highlight1:hover{
+   color:darkgray;
 }
