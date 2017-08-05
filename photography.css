@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Background */
+html { 
+  background: url(img/bricks.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	overflow-y: hidden;
+}
+
+/*HEADLINE 1*/
+h1{
+	text-align: center;
+	color: #7b808c;
+	font-family: "futura";
+	font-style: italic;
+	font-size: xx-large; 
+	margin-top: 30px;
+	
+}
+
+/*Credits*/
+a{
+	text-align: right;
+	color: #565A63;
+	font-family: "futura";
+	font-style: italic;
+	font-size: small; 
+}
+
+/*HIDING SCROLLBAR*/
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+/*Horizontal Scrolling*/
+	.flex-container {
+    display: -webkit-flex;
+    display: flex;
+	overflow-x: visible;
+	overflow-y: hidden;
+    white-space: nowrap;
+	flex-wrap: nowrap;
+	height: 560px;
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 5px;
+}
+	
+/*Items align vertical: bottom, top, center*/
+.flex-item1 {
+    display: inline-grid;
+	margin-right: 250px;
+	min-width: 700px;
+    height: auto;
+	text-align: right;
+	color: #7b808c;
+	font-family: "futura";
+	font-style: italic;
+	font-size: medium; 
+	-webkit-align-self: flex-end;
+    align-self: flex-end;
+}
+
+.flex-item2 {
+    display: inline-grid;
+	margin-right: 250px;
+	min-width: 700px;
+    height: auto;
+	text-align: right;
+	color: #7b808c;
+	font-family: "futura";
+	font-style: italic;
+	font-size: medium; 
+	-webkit-align-self: flex-start;
+    align-self: flex-start;
+}
+
+.flex-item3 {
+    display: inline-grid;
+	margin-right: 250px;
+	min-width: 700px;
+    height: auto;
+	text-align: right;
+	color: #7b808c;
+	font-family: "futura";
+	font-style: italic;
+	font-size: medium; 
+    -webkit-align-self: center;
+    align-self: center;
+}
+.flex-itemP {
+    display: inline-grid;
+    height: auto;
+    -webkit-align-self: center;
+    align-self: center;
+}
+
+
+
+/* Image margin*/
+img{
+	margin-bottom: 12px;
+	margin-left: 40px;
+
+}
+
+/*Shadow*/
+img.polaroid {
+  width: 700px;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
