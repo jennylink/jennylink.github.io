@@ -8,28 +8,10 @@
 		font-family: "futura";
 		font-style: italic;
 		color: white;
-		font-size: 100%;
+		font-size: large;
 	}
 	
-	.flex-container {
-    display: -webkit-flex;
-    display: flex;
-	-webkit-justify-content: center;
-    justify-content: center;
-	-webkit-align-items: center;
-    align-items: center;
-	flex-wrap: wrap;
-    width: 80%;
-	height: 100%;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-	
-.flex-item {
-    width: 220px;
-    height: 220px;
-    margin: 2px;
-}
+
 	
 </style>
 </head>
@@ -50,9 +32,9 @@
 
 
 <div class="flex-container">
-  <div class="flex-item"><a href="print.html"><img src="img/blue.png" id="Print" alt="print" width="220px" height="220px"></a></div>
-  <div class="flex-item"><a href="projects.html"><img src="img/magenta.png" id="Projects" width="220px" height="220px" alt="projects"/></a></div>
-  <div class="flex-item"><a href="photography.html"><img src="img/yellow.png" id="Photography" width="220px" height="220px" alt="photography"/> </a> </div>
+  <div class="flex-item"><a href="print.html"><img src="img/blue.png" id="Print" alt="print" min-width="220px" height="220px"></a></div>
+  <div class="flex-item"><a href="projects.html"><img src="img/magenta.png" id="Projects" min-width="220px" height="220px" alt="projects"/></a></div>
+  <div class="flex-item"><a href="photography.html"><img src="img/yellow.png" id="Photography" min-width="220px" height="220px" alt="photography"/> </a> </div>
 </div>
 
 
