@@ -17,6 +17,17 @@ p {
 	font-size: large;
 }
 
+/*HEADLINE 1*/
+h1{
+	text-align: center;
+	color: #7b808c;
+	font-family: "futura";
+	font-style: italic;
+	font-size: xx-large; 
+	margin-top: 30px;
+	
+}
+
 	.flex-container {
     display: -webkit-flex;
     display: flex;
@@ -83,4 +94,10 @@ p {
  
 .highlight1:hover{
    color:#7B808C;
+}
+
+/*Shadow*/
+img.polaroid {
+  width: 700px;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }

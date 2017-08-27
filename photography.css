@@ -58,8 +58,6 @@ a{
 .flex-item1 {
     display: inline-grid;
 	margin-right: 250px;
-	min-width: 700px;
-    height: auto;
 	text-align: right;
 	color: #7b808c;
 	font-family: "futura";
@@ -72,8 +70,6 @@ a{
 .flex-item2 {
     display: inline-grid;
 	margin-right: 250px;
-	min-width: 700px;
-    height: auto;
 	text-align: right;
 	color: #7b808c;
 	font-family: "futura";
@@ -86,8 +82,6 @@ a{
 .flex-item3 {
     display: inline-grid;
 	margin-right: 250px;
-	min-width: 700px;
-    height: auto;
 	text-align: right;
 	color: #7b808c;
 	font-family: "futura";
@@ -96,6 +90,8 @@ a{
     -webkit-align-self: center;
     align-self: center;
 }
+
+
 .flex-itemP {
     display: inline-grid;
     height: auto;
