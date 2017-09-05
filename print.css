@@ -48,23 +48,31 @@ a{
 	overflow-y: hidden;
     white-space: nowrap;
 	flex-wrap: nowrap;
-	height: 560px;
+	height: 360px;
 	width: auto;
 	margin-bottom: 50px;
 	margin-top: 5px;
 }
 	
 /*Items align vertical: bottom, top, center*/
-.flex-item1 {
-    display: inline-grid;
-	margin-right: 250px;
-	text-align: right;
-	color: #7b808c;
-	font-family: "futura";
-	font-style: italic;
-	font-size: medium; 
-	-webkit-align-self: flex-end;
-    align-self: flex-end;
+	
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+	overflow-x: visible;
+	overflow-y: hidden;
+    white-space: nowrap;
+	flex-wrap: nowrap;
+	height: 560px;
+	width: auto;
+	margin-bottom: 50px;
+	margin-top: 5px;
+}
+
+.flex-item {
+    min-width: auto;
+    min-height: auto;
+    margin: 2px;
 }
 
 .flex-item2 {
@@ -101,7 +109,7 @@ a{
 
 
 
-/* Image margin*/
+
 img{
 	margin-bottom: 12px;
 	margin-left: 40px;
@@ -110,6 +118,6 @@ img{
 
 /*Shadow*/
 img.polaroid {
-  width: 700px;
+  width: auto;
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
