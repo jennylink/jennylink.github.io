@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@import url("projects.html.css");
+/* CSS Document */
+
+/* Background */
+html { 
+  background: url(img/bg3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+p {
+	font-family: "futura";
+	font-style: italic;
+	color: white;
+	font-size: large;
+}
+
+
+.intro {
+	font-family: "futura";
+	font-style: italic;
+	color: white;
+	font-size: large;
+	text-align: justify;
+	margin: 10%;
+}
+
+.c {
+	font-family: "futura";
+	font-style: italic;
+	color: #7b808c;
+	font-size: large;
+	text-align: center;
+}
+
+/*HEADLINE 1*/
+h1{
+	text-align: center;
+	color: #7b808c;
+	font-family: "futura";
+	font-style: italic;
+	font-size: xx-large; 
+	margin-top: 30px;
+	
+}
+
+/*HEADLINE 2*/
+h2{
+	text-align: center;
+	color: #1d252d;
+	font-family: "futura";
+	font-style: italic;
+	font-size: large; 
+	margin-top: 30px;
+	
+}
+
+/*Headline 3*/
+h3 {
+	font-family: "futura";
+	font-style: normal;
+	color: yellow;
+	font-size: large;	
+}
+
+/*Headline TP*/
+h4 {
+	text-align: center;
+	font-family: "futura";
+	font-style: normal;
+	color: yellow;
+	font-size: large;
+	
+}
+
+/* INTRO */
+.flex-containerI {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 80%;
+	margin-left: 10%;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+	-webkit-justify-content: center;
+    justify-content: center;
+    width: 80%;
+	margin-left: 10%;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.flex-containerP {
+    display: -webkit-flex;
+    display: flex;
+	-webkit-justify-content: center;
+    justify-content: center;
+	 -webkit-align-items: center;
+    align-items: center;
+    width: 80%;
+	margin-left: 10%;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.flex-containerF {
+	display: -webkit-flex;
+    display: flex;
+	-webkit-flex-direction: column;
+    flex-direction: column;
+	overflow-x: visible;
+	overflow-y: hidden;
+	-webkit-justify-content: center;
+    justify-content: center;
+    white-space: nowrap;
+	flex-wrap: nowrap;
+ 	width: 80%;
+	margin-left: 10%;
+    height: auto;
+    background-color: lightgrey;
+}
+	
+.flex-item {
+    width: auto;
+    height: auto;
+    
+}
+
+.flex-itemC {
+    width: auto;
+    height: 200px;
+    margin: 10px;
+}
+
+/* Hover Print */
+#Print {
+    min-height: 220px;
+    min-width: 220px;
+}
+
+#Print:hover {
+    content: url(img/print.png);
+    min-height: 220px;
+    min-width: 220px;
+}
+
+/* Hover Projects */
+#Projects {
+    min-height: 220px;
+    min-width: 220px;
+}
+
+#Projects:hover {
+    content: url(img/projects.png);
+    min-height: 220px;
+    min-width: 220px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+/* Hover Photography */
+#Photography {
+    min-height: 220px;
+    min-width: 220px;
+}
+
+#Photography:hover {
+    content: url(img/photography.png);
+    min-height: 220px;
+    min-width: 220px;
+}
+
+/* Highlight Text*/
+.highlight1{
+   color: white;
+	font-family: "futura";
+	font-style: italic;
+	font-size: xx-large;	
+}
+ 
+.highlight1:hover{
+   color:#7B808C;
+}
+
+/*Shadow*/
+img.polaroid {
+  width: 700px;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}

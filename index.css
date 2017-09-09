@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("projects.html.css");
 /* CSS Document */
 
 /* Background */
@@ -10,11 +11,29 @@ html {
   background-size: cover;
 }
 
+a {
+ color: #7b808c;
+	text-decoration: none;
+}
+
+g {
+ color: #7b808c;
+	text-decoration: none;
+}
+
 p {
 	font-family: "futura";
 	font-style: italic;
 	color: white;
 	font-size: large;
+}
+
+.c {
+	font-family: "futura";
+	font-style: italic;
+	color: #7b808c;
+	font-size: large;
+	text-align: center;
 }
 
 /*HEADLINE 1*/
@@ -28,24 +47,52 @@ h1{
 	
 }
 
-	.flex-container {
+/*HEADLINE 2*/
+h2{
+	text-align: center;
+	color: #1d252d;
+	font-family: "futura";
+	font-style: italic;
+	font-size: large; 
+	margin-top: 30px;
+	
+}
+
+/*Headline 3*/
+h3 {
+	text-align: Left;
+	font-family: "futura";
+	font-style: normal;
+	color: yellow;
+	font-size: large;	
+}
+
+/*Headline TP*/
+ht {
+	text-align: right;
+	font-family: "futura";
+	font-style: normal;
+	color: yellow;
+	font-size: large;
+	margin-left: 60%;	
+}
+
+.flex-container {
     display: -webkit-flex;
     display: flex;
-	-webkit-justify-content: center;
+    -webkit-justify-content: center;
     justify-content: center;
-	-webkit-align-items: center;
-    align-items: center;
-	flex-wrap: wrap;
+	vertical-align: middle;
     width: 80%;
-	height: 100%;
 	margin-left: 10%;
-	margin-right: 10%;
+    height: auto;
+    background-color: lightgrey;
 }
 	
 .flex-item {
-    min-width: 220px;
-    min-height: 220px;
-    margin: 2px;
+    width: auto;
+    height: auto;
+    margin: 10px;
 }
 
 /* Hover Print */
