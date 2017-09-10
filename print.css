@@ -25,13 +25,20 @@ h1{
 	
 }
 
-/*Credits*/
-a{
+/* CREDITS */
+c {
 	text-align: right;
 	color: #565A63;
 	font-family: "futura";
 	font-style: italic;
 	font-size: small; 
+}
+
+
+/* Link style */
+a {
+	color: #7b808c;
+	text-decoration: none;
 }
 
 /*HIDING SCROLLBAR*/
