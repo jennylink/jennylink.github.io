@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Background */
+html { 
+  background: url(img/bg3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Link style */
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* TEXT BODY */
+p {
+	font-family: "futura";
+	font-style: italic;
+	color: white;
+	font-size: large;
+}
+
+/* Highlight Text P*/
+.highlight1{
+   color: white;
+	font-family: "futura";
+	font-style: italic;
+	font-size: large;	
+}
+ 
+.highlight1:hover{
+   color:#7B808C;
+}
+
+
+/* INTRO */
+.intro {
+	font-family: "futura";
+	font-style: italic;
+	color: white;
+	font-size: large;
+	text-align: justify;
+	margin: 10%;
+}
+
+
+/* CENTERED ELEMENTS */
+.c {
+	font-family: "futura";
+	font-style: italic;
+	color: darkgrey;
+	font-size: large;
+	text-align: center;
+}
+
+/*HEADLINE 1*/
+h1{
+	text-align: center;
+	color: #7b808c;
+	font-family: "futura";
+	font-style: italic;
+	font-size: xx-large; 
+	margin-top: 30px;
+	
+}
+
+/*HEADLINE 2*/
+h2{
+	text-align: center;
+	color: #1d252d;
+	font-family: "futura";
+	font-style: italic;
+	font-size: large; 
+	margin-top: 30px;
+	
+}
+
+/*Headline 3*/
+h3 {
+	font-family: "futura";
+	font-style: normal;
+	color: orange;
+	font-size: large;	
+}
+
+/* Highlight h3*/
+.highlight2{
+   color: orange;
+	font-family: "futura";
+	font-style: normal;
+	font-size: large;	
+}
+ 
+.highlight2:hover{
+   color:#7B808C;
+}
+
+/*Headline 4*/
+h4 {
+	text-align: center;
+	font-family: "futura";
+	font-style: normal;
+	color: orange;
+	font-size: large;
+	
+}
+
+/* INTRO FLEXCONTAINER */
+.flex-containerI {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 80%;
+	margin-left: 10%;
+    height: auto;
+    background-color: lightgrey;
+    background-color: rgba(205, 205, 205, 0.6);
+
+}
+
+/* FLEXCONTAINER TEXT */
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+	-webkit-justify-content: center;
+    justify-content: center;
+    width: 80%;
+	margin-left: 10%;
+    height: auto;
+    background-color: rgba(205, 205, 205, 0.6);
+}
+
+/* FLEXCONTAINER PICTURES */
+.flex-containerP {
+    display: -webkit-flex;
+    display: flex;
+	-webkit-justify-content: center;
+    justify-content: center;
+	 -webkit-align-items: center;
+    align-items: center;
+    width: 80%;
+	margin-left: 10%;
+    height: auto;
+    background-color: rgba(205, 205, 205, 0.6);
+}
+
+/* FLEXCONTAINER GALLERY */
+.flex-containerF {
+	display: -webkit-flex;
+    display: flex;
+	-webkit-flex-direction: column;
+    flex-direction: column;
+	overflow-x: visible;
+	overflow-y: hidden;
+	-webkit-justify-content: center;
+    justify-content: center;
+    white-space: nowrap;
+	flex-wrap: nowrap;
+ 	width: 80%;
+	margin-left: 10%;
+    height: auto;
+    background-color: rgba(205, 205, 205, 0.6);
+}
+	
+/* FLEXITEM */
+.flex-item {
+    width: auto;
+    height: auto;    
+}
+
+/* ROUND IMG */
+.img-circle {
+	border-radius: 50%;
+}
+
+/*HIDING SCROLLBAR*/
+::-webkit-scrollbar { 
+    display: none; 
+}
